@@ -1,10 +1,21 @@
 const facts = [
-  "I love drawing and creating digital art!",
-  "My favorite sport is basketball.",
-  "I enjoy coding small games.",
-  "I like to bake cupcakes on weekends."
+  "I love drawing and creating digital art!",<img>
+  "My favorite sport is basketball.",<img>
+  "I enjoy coding small games.",<img>
+  "I like to bake cupcakes on weekends."<img>
 ];
-
+const facts = [
+  "I love drawing and creating digital art!",<img>
+  "My favorite sport is basketball.",<img>
+  "I enjoy coding small games.",<img>
+  "I like to bake cupcakes on weekends."<img>
+];
+const facts = [
+  "I love drawing and creating digital art!",<img>
+  "My favorite sport is basketball.",<img>
+  "I enjoy coding small games.",<img>
+  "I like to bake cupcakes on weekends."<img>
+];
 const factParagraph = document.getElementById("fact");
 const button = document.getElementById("changeButton");
 
