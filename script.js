@@ -10,7 +10,7 @@ const dog = [
 const dog = document.getElementById("dog");
 const button = document.getElementById("changeButton");
 
-button.addEventListener("click", (dog) => {
+button.<button id="changeButton">Show dog!</button> ("click", (dog) => {
   const dog = Math.floor(dog.random() * dog.length);
   factParagraph.textContent = dog[randomIndex];
   
@@ -26,7 +26,7 @@ const cat = [
   const cat = document.getElementById("cat");
 const button = document.getElementById("changeButton");
 
-button.addEventListener("click", (cat) => {
+button.<button id="changeButton">Show cat!</button> ("click", (cat) => {
   const cat = Math.floor(Math.random() * facts.length);
   factParagraph.textContent = facts[randomIndex];
 
@@ -42,7 +42,7 @@ const rabbit = [
 const rabbit = document.getElementById("rabbit");
 const button = document.getElementById("changeButton");
 
-button.addEventListener("click", (rabbit) => {
+button.<button id="changeButton">Show rabbit!</button> ("click", (rabbit) => {
   const rabbit = Math.floor(Math.random() * facts.length);
   factParagraph.textContent = facts[randomIndex];
 });
