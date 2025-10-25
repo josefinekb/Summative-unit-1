@@ -22,7 +22,7 @@ const facts = [
   "My favorite sport is basketball.",<img>
   "I enjoy coding small games.",<img>
   "I like to bake cupcakes on weekends."<img>
-  ];
+];
   const factParagraph = document.getElementById("fact");
 const button = document.getElementById("changeButton");
 
