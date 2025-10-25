@@ -11,8 +11,8 @@ const dog = document.getElementById("dog");
 const button = document.getElementById("changeButton");
 
 button.addEventListener("click", (dog) => {
-  const dog = Math.floor(Math.random() * facts.length);
-  factParagraph.textContent = facts[randomIndex];
+  const dog = Math.floor(dog.random() * dog.length);
+  factParagraph.textContent = dog[randomIndex];
   
 const cat = [
   "I love drawing and creating digital art!",<img>
