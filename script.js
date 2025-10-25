@@ -7,12 +7,14 @@ const dog = [
   "I enjoy coding small games.",<img>
   "I like to bake cupcakes on weekends."<img>
 ];
-const dog = document.getElementById("dog");
-const button = document.getElementById("changeButton");
+const showImage = () => {
+  document.getElementById("first").style.display = 'block';
+}
 
-button.<button id="changeButton">Show dog!</button> ("click", (dog) => {
-  const dog = Math.floor(dog.random() * dog.length);
-  factParagraph.textContent = dog[randomIndex];
+<button onClick="showImage()">Button</button>
+<div id="first" style="height:400px; width:400px; display:none;">
+  <img src="https://placekitten.com/400/400" />
+</div>
   
 const cat = [
   "I love drawing and creating digital art!",<img>
@@ -23,12 +25,14 @@ const cat = [
   "I enjoy coding small games.",<img>
   "I like to bake cupcakes on weekends."<img>
 ];
-  const cat = document.getElementById("cat");
-const button = document.getElementById("changeButton");
+  const showImage = () => {
+  document.getElementById("first").style.display = 'block';
+}
 
-button.<button id="changeButton">Show cat!</button> ("click", (cat) => {
-  const cat = Math.floor(Math.random() * facts.length);
-  factParagraph.textContent = facts[randomIndex];
+<button onClick="showImage()">Button</button>
+<div id="first" style="height:400px; width:400px; display:none;">
+  <img src="https://placekitten.com/400/400" />
+</div>
 
 const rabbit = [
   "I love drawing and creating digital art!",<img>
@@ -39,10 +43,12 @@ const rabbit = [
   "I enjoy coding small games.",<img>
   "I like to bake cupcakes on weekends."<img>
 ];
-const rabbit = document.getElementById("rabbit");
-const button = document.getElementById("changeButton");
+const showImage = () => {
+  document.getElementById("first").style.display = 'block';
+}
 
-button.<button id="changeButton">Show rabbit!</button> ("click", (rabbit) => {
-  const rabbit = Math.floor(Math.random() * facts.length);
-  factParagraph.textContent = facts[randomIndex];
+<button onClick="showImage()">Button</button>
+<div id="first" style="height:400px; width:400px; display:none;">
+  <img src="https://placekitten.com/400/400" />
+</div>
 });
