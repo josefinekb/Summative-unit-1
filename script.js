@@ -1,9 +1,9 @@
 const facts = [
-  "Thrianta rabbit!",
-  "American Fuzzy Lop!",
-  "Lionhead rabbit!",
-  "Netherland Dwarf rabbit!",
-  "Alaskan rabbit!"
+  "Thrianta rabbit",
+  "American Fuzzy Lop",
+  "Lionhead rabbit",
+  "Netherland Dwarf rabbit",
+  "Alaskan rabbit"
 ];
 
 const factParagraph = document.getElementById("fact");
